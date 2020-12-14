@@ -8,12 +8,12 @@ let package = Package(
     platforms: [.iOS(.v10)],
     products: [
         .library(
-            name: "MyLibrary",
-            targets: ["MyLibrary"]),
+            name: "CarthageTestLib",
+            targets: ["CarthageTestLib"]),
     ],
     targets: [
         .binaryTarget(
-            name: "MyLibrary",
+            name: "CarthageTestLib",
             url: "https://github.com/ilitvinenko/carthage-test/releases/download/v0.1.3/CarthageTestLib.framework.zip",
             checksum: "f009123b6ac8b9c60538ea2eaaf41f6f53a9020071f5e2e71f45aab941852726"
         )
