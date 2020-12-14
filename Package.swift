@@ -15,7 +15,7 @@ let package = Package(
         .binaryTarget(
             name: "CarthageTestLib",
             url: "https://github.com/ilitvinenko/carthage-test/releases/download/v0.1.4/CarthageTestLib.xcframework.zip",
-            checksum: "f009123b6ac8b9c60538ea2eaaf41f6f53a9020071f5e2e71f45aab941852726"
+            checksum: "b0112505830eb8d6c680526c393ae3ae49f8d53e3df9ede2e7a8b8289937a2d7"
         )
     ]
 )
